@@ -1046,7 +1046,7 @@ quaternion(k)
 \end_layout
 
 \begin_layout Standard
-Given these values (zeros for the empty boxes), our left hand side is 
+Given these values, our left hand side is 
 \begin_inset Formula $L_{A}\left(aX+bY\right)=\left(-3+3i+j-k,-3-i+3j-3k\right)$
 \end_inset
 
