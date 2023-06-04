@@ -5,6 +5,9 @@
 \save_transient_properties true
 \origin unavailable
 \textclass article
+\begin_preamble
+\usepackage{emoji}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language english
@@ -16,7 +19,7 @@
 \font_typewriter "default" "default"
 \font_math "auto" "auto"
 \font_default_family default
-\use_non_tex_fonts false
+\use_non_tex_fonts true
 \font_sc false
 \font_osf false
 \font_sf_scale 100 100
@@ -24,7 +27,7 @@
 \use_microtype false
 \use_dash_ligatures true
 \graphics default
-\default_output_format default
+\default_output_format pdf5
 \output_sync 0
 \bibtex_command default
 \index_command default
@@ -99,6 +102,22 @@ This is from the Student Mathematical Library Vol 29 edition.
  I just want to do some problem sets along my way when I read it.
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+emoji{joy}
+\end_layout
+
+\end_inset
+
+ CTRL + L is LaTex mode
+\end_layout
+
 \begin_layout Part*
 Chapter 1 Exercises
 \end_layout
@@ -111,6 +130,10 @@ Ex.
 
 \begin_layout Standard
 Prove Equation 1.3.
+\begin_inset Formula $asff\emoji\{joy\}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -276,7 +299,7 @@ For all
 \begin_layout Standard
 \begin_inset Formula 
 \begin{align*}
-\text{trace}\left(AB\right) & =\left(AB\right)_{11}+\cdots+\left(AB\right)_{nn} \\
+\text{trace}\left(AB\right) & =\left(AB\right)_{11}+\cdots+\left(AB\right)_{nn}\\
 = & \sum_{i=1}^{n}\sum_{s=1}^{n}A_{i,s}\cdot B_{s,i}\\
 = & \text{trace}\left(BA\right)\square
 \end{align*}
@@ -379,6 +402,7 @@ Show by example that for
 \end_inset
 
 -linear.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -402,7 +426,7 @@ status open
 
 \begin_layout Plain Layout
 By Definion 1.9., A function 
-\begin_inset Formula $f:V_{1}\rightarrow V_{2}  $
+\begin_inset Formula $f:V_{1}\rightarrow V_{2}$
 \end_inset
 
 is called 
@@ -433,7 +457,11 @@ By Definion 1.10., we have
 \begin_inset Formula $L_{A}\left(X\right)\coloneqq\left(A\cdot X^{T}\right)^{T}$
 \end_inset
 
-;
+, 
+\begin_inset Formula $R_{A}\left(X\right)=XA$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1052,6 +1080,324 @@ Given these values (zeros for the empty boxes), our left hand side is
 
  and right hand side 
 \begin_inset Formula $aL_{A}(X)+bL_{A}(Y)=\left(-1+5i-j-k,-5-3i+j+k\right)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Part*
+Chapter 2 Exercises
+\end_layout
+
+\begin_layout Standard
+Before we start, let's walk.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A$
+\end_inset
+
+ is the motion in 
+\begin_inset Formula $\mathbb{C}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Standard
+B is the same motion but in 
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+, so 
+\begin_inset Formula $\rho$
+\end_inset
+
+ is basically taking 
+\begin_inset Formula $A$
+\end_inset
+
+ to make such a 
+\begin_inset Formula $B$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f$
+\end_inset
+
+ is the 
+\begin_inset Quotes eld
+\end_inset
+
+encoder
+\begin_inset Quotes erd
+\end_inset
+
+ from 
+\begin_inset Formula $\mathbb{C}$
+\end_inset
+
+ to 
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Ex.
+ 2.1.
+\end_layout
+
+\begin_layout Standard
+Prove that definition of 
+\begin_inset Formula $\rho_{n}$
+\end_inset
+
+ in the text makes diagram 2.1 commute.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Diagram 2.1
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\begin{array}{ccc}
+\mathbb{C}^{n} & \rightarrow^{f_{n}} & \mathbb{R}^{2n}\\
+R_{A}\downarrow &  & \downarrow R_{\rho_{n}\left(A\right)}\\
+\mathbb{C}^{n} & \rightarrow^{f_{n}} & \mathbb{R}^{2n}
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+we also have
+\begin_inset Formula 
+\[
+\rho_{1}\left(a+b\boldsymbol{i}\right)\coloneqq\left(\begin{array}{cc}
+a & b\\
+-b & a
+\end{array}\right)
+\]
+
+\end_inset
+
+and 
+\begin_inset Formula 
+\[
+f_{n}\left(a_{1}+b_{1}\boldsymbol{i},a_{2}+b_{2}\boldsymbol{i},\cdots,a_{n}+b_{n}\boldsymbol{i}\right)\coloneqq\left(a_{1},b_{1},a_{2},b_{2},\cdots,a_{n},b_{n}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We want 
+\begin_inset Formula $\rho_{n}\coloneqq M_{n}(\mathbb{C})\rightarrow M_{2n}\left(\mathbb{R}\right)$
+\end_inset
+
+ that 
+\begin_inset Formula $R_{\rho_{n}\left(A\right)}\circ f_{n}=f_{n}\circ R_{A}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+For some 
+\begin_inset Formula $x=\left(a_{1}+b_{1}\boldsymbol{i},a_{2}+b_{2}\boldsymbol{i},\cdots,a_{n}+b_{n}\boldsymbol{i}\right)\in\mathbb{C}^{n}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Left hand side, 
+\begin_inset Formula 
+\begin{align*}
+R_{\rho_{n}\left(A\right)}\circ f_{n}\left(x\right) & =R_{\rho_{n}\left(A\right)}\circ\left(a_{1},b_{1},a_{2},b_{2},\cdots,a_{n},b_{n}\right)\\
+= & \left(a_{1},b_{1},a_{2},b_{2},\cdots,a_{n},b_{n}\right)\left[\begin{array}{ccccc}
+a\\
+\\
+\\
+\\
+\\
+\end{array}\right]
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Ex.
+ 2.2.
+\end_layout
+
+\begin_layout Standard
+Prove Proposition 2.4.
+\end_layout
+
+\begin_layout Paragraph
+Ex.
+ 2.3.
+\end_layout
+
+\begin_layout Standard
+Prove Proposition 2.6.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Proposition 2.6.
+ 
+\series default
+For all 
+\begin_inset Formula $\lambda\in\mathbb{R}$
+\end_inset
+
+ and 
+\begin_inset Formula $A,B\in M_{n}(\mathbb{H})$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\Psi_{n}\left(\lambda\cdot A\right)=\lambda\cdot\Psi_{n}\left(A\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\Psi_{n}\left(A+B\right)=\Psi_{n}\left(A\right)+\Psi_{n}\left(B\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\Psi_{n}$
+\end_inset
+
+
+\begin_inset Formula $\left(A\cdot B\right)=\Psi_{n}\left(A\right)\cdot\Psi_{n}\left(B\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Ex.
+ 2.4.
+\end_layout
+
+\begin_layout Standard
+Prove Proposition 2.7.
+\end_layout
+
+\begin_layout Paragraph
+Ex.
+ 2.5.
+\end_layout
+
+\begin_layout Standard
+Prove that for any 
+\begin_inset Formula $A\in GL_{1}\left(\mathbb{H}\right)$
+\end_inset
+
+, 
+\begin_inset Formula $det(A)\in\mathbb{R}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Paragraph
+Ex.
+ 2.6.
+\end_layout
+
+\begin_layout Standard
+Prove that 
+\begin_inset Formula $SL_{n}\left(\mathbb{H}\right)\coloneqq\left\{ A\in GL_{n}\left(\mathbb{H}\right)\vert\det(A)\right\} =1$
+\end_inset
+
+ is a subgroup.
+ Describle a natural bijection between elements of 
+\begin_inset Formula $SL_{1}\left(\mathbb{H}\right)$
+\end_inset
+
+ and points of the 3-dimensional sphere 
+\begin_inset Formula $S^{3}$
 \end_inset
 
 .
