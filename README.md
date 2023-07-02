@@ -12,7 +12,7 @@
     - Ordered Data Structures
     - Unordered Data Structures
 - Digital Signal Processing 1: Basic Concepts and Algorithms, from EPFL
-- Digital Signal Processing 2: 
+- Digital Signal Processing 2: Filtering 
 - Fundamentals of Reinforcement Learning, from University of Alberta
 - Introduction to Portfolio Construction and Analysis with Python, from EDHEC business school 
 - Version Control with Git, from Atlassian
@@ -31,14 +31,16 @@
 - Cyrill Stachniss, Photogrammetry
 - Steve Brunton, databookuw
 - MIT's Intro to deep learning
-- Fast ai 
+- Fast ai's Practical DL, 2020,
+- ...
 
-## In progress (slowly) 
+## In progress (slowly, not in order) 
 - Modern Robotics, Northwestern
 - Harvard math 205
-- Tubingen, computer vision
+- Tubingen, computer vision, prob numerics
 - Convex optimization,
 - More manifold stuff, DL, ML, graph DL, and geometric algebra
+- random matrix theory, and representation theory seem cool too
 
 ### on my long long long list
 - Sports Performance Analytics, Coursera, U Michigan
@@ -46,3 +48,4 @@
 - Intellectual Property Law, Coursera, UPenn
 - Corporate & Commerical Law 1: Contracts & Employment Law, Coursera, UIUC
 - Computational finance, the book with owls as cover
+- Implied volatility
