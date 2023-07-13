@@ -229,6 +229,18 @@ Here we use the definion of (1.2) of product mulitplication here:
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+emoji{grimacing-face}
+\end_layout
+
+\end_inset
+
 Ahhh I fucked up the indexing, but just write the entries out and compare
  would work.
  
@@ -1079,7 +1091,20 @@ Given these values (zeros for the empty boxes), our left hand side is
 \end_inset
 
 .
- 
+ Thanks MATLAB 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+emoji{hot-face }
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part*
@@ -1087,7 +1112,20 @@ Chapter 2 Exercises
 \end_layout
 
 \begin_layout Standard
-Before we start, let's walk.
+Before we start, let's do a recap 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+emoji{relieved-face}
+\end_layout
+
+\end_inset
+
+.
  
 \end_layout
 

@@ -130,10 +130,6 @@ Ex.
 
 \begin_layout Standard
 Prove Equation 1.3.
-\begin_inset Formula $asff\emoji\{joy\}$
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -233,6 +229,18 @@ Here we use the definion of (1.2) of product mulitplication here:
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+emoji{grimacing-face}
+\end_layout
+
+\end_inset
+
 Ahhh I fucked up the indexing, but just write the entries out and compare
  would work.
  
@@ -1083,7 +1091,20 @@ Given these values (zeros for the empty boxes), our left hand side is
 \end_inset
 
 .
- 
+ Thanks MATLAB 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+emoji{hot-face}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part*
@@ -1091,7 +1112,44 @@ Chapter 2 Exercises
 \end_layout
 
 \begin_layout Standard
-Before we start, let's walk.
+Before we start, let's do a recap 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+emoji{relieved-face}
+\end_layout
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+The function 
+\begin_inset Formula $L_{A}$
+\end_inset
+
+ or 
+\begin_inset Formula $R_{A}$
+\end_inset
+
+ is taking a matrix 
+\begin_inset Formula $A$
+\end_inset
+
+ and applying the 
+\begin_inset Quotes eld
+\end_inset
+
+motion
+\begin_inset Quotes erd
+\end_inset
+
  
 \end_layout
 
@@ -1103,16 +1161,26 @@ Before we start, let's walk.
 \begin_inset Formula $\mathbb{C}$
 \end_inset
 
-;
-\end_layout
+, 
+\begin_inset Formula $A\in M_{n}\left(\mathbb{C}\right)$
+\end_inset
 
-\begin_layout Standard
-B is the same motion but in 
+.
+ B is the same motion but in 
 \begin_inset Formula $\mathbb{R}$
 \end_inset
 
-, so 
-\begin_inset Formula $\rho$
+, 
+\begin_inset Formula $B\in M_{2n}\left(\mathbb{R}\right)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+so 
+\begin_inset Formula $\rho_{n}:M_{n}\left(\mathbb{C}\right)\rightarrow M_{2n}\left(\mathbb{R}\right)$
 \end_inset
 
  is basically taking 
@@ -1127,7 +1195,7 @@ B is the same motion but in
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $f$
+\begin_inset Formula $f_{n}:\mathbb{C}^{n}\rightarrow\mathbb{R}^{2n}$
 \end_inset
 
  is the 
@@ -1146,7 +1214,7 @@ encoder
 \begin_inset Formula $\mathbb{R}$
 \end_inset
 
-
+, 
 \end_layout
 
 \begin_layout Paragraph
@@ -1231,7 +1299,7 @@ f_{n}\left(a_{1}+b_{1}\boldsymbol{i},a_{2}+b_{2}\boldsymbol{i},\cdots,a_{n}+b_{n
 \end_layout
 
 \begin_layout Standard
-We want 
+We want to show that 
 \begin_inset Formula $\rho_{n}\coloneqq M_{n}(\mathbb{C})\rightarrow M_{2n}\left(\mathbb{R}\right)$
 \end_inset
 
@@ -1278,6 +1346,116 @@ Ex.
 
 \begin_layout Standard
 Prove Proposition 2.4.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Definition 2.3.
+\end_layout
+
+\begin_layout Plain Layout
+Matrices of 
+\begin_inset Formula $M_{2n}\left(\mathbb{R}\right)$
+\end_inset
+
+ in the image of 
+\begin_inset Formula $\rho_{n}$
+\end_inset
+
+ are called complex-linear real matrices.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Proposition 2.4.
+
+\series default
+ 
+\begin_inset Formula $B\in M_{2n}\left(\mathbb{R}\right)$
+\end_inset
+
+ is a complex-linear if and only if the function 
+\begin_inset Formula $f_{n}^{-1}\circ R_{B}\circ f_{n}:\mathbb{C}^{n} \rightarrow\mathbb{C}^{n}$
+\end_inset
+
+ is a 
+\begin_inset Formula $\mathbb{C}$
+\end_inset
+
+-linear transformation:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\begin{array}{ccc}
+\mathbb{C}^{n} & \rightarrow^{f_{n}} & \mathbb{R}^{2n}\\
+ &  & \downarrow R_{B}\\
+\mathbb{C}^{n} & \leftarrow^{f_{n}^{-1}} & \mathbb{R}^{2n}
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Define 
+\begin_inset Formula $F=f_{n}^{-1}\circ R_{B}\circ f_{n}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Paragraph
