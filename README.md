@@ -26,6 +26,10 @@
 - Investment 1: Fundamentals of Performance Evaluation, from UIUC
 - Learning How to Learn: Powerful mental tools to help you master tough subjects
 
+## LeetCode
+https://leetcode.com/Longhuiberkeley/
+I recently started to give LeetCode a try, maybe learn a new language as well (July 2023)
+
 ## Youtube/ Books (Completed)
 - UMich-Curly mobile robotics
 - Cyrill Stachniss, Photogrammetry
