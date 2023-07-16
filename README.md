@@ -60,17 +60,17 @@ I recently started to give LeetCode a try, maybe learn a new language as well (J
     - [Note](https://colab.research.google.com/drive/1O5tWgJcpbY0gDOfj1-HebQel7nOgjQvv?usp=sharing)
 - Matrix Groups for Undergraduates, Kristopher Tapp, book,
     - [Note][stml029]
-- Modern Robotics, Northwestern
-- [Harvard math 205](https://www.youtube.com/playlist?list=PL43IQ71lgJytIqhiJ6v5lNswFKeQ9952K)
+- [Harvard Math 205](https://www.youtube.com/playlist?list=PL43IQ71lgJytIqhiJ6v5lNswFKeQ9952K)
 - Tubingen, 
     - [computer vision](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/lectures/computer-vision/), 
     - [prob numerics](https://www.youtube.com/playlist?list=PL05umP7R6ij2lwDdj7IkuHoP9vHlEcH0s)
     - [prob ML](https://www.youtube.com/playlist?list=PL05umP7R6ij2YE8rRJSb-olDNbntAQ_Bx)
 - [Convex optimization](https://www.youtube.com/playlist?list=PL8WsPW41L6l7rviIGvIkY0-jn-tM3YSNi)
+- [Modern Robotics](https://www.youtube.com/playlist?list=PLggLP4f-rq02vX0OQQ5vrCxbJrzamYDfx), Northwestern
 - More manifold stuff, DL, ML, graph DL, and geometric algebra
 - random matrix theory, and representation theory seem cool too
 
-[stml029]: MatrixGroupsforUndergraduates_KristopherTapp/stml029.pdf
+[stml029]: MatrixGroupsforUndergraduates_KristopherTapp/stml029sol.pdf
 
 ### on my long long long list
 - Sports Performance Analytics, Coursera, U Michigan
