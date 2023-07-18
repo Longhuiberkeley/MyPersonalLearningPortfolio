@@ -30,19 +30,24 @@ I signed up for the Coursera Plus in 2020 for 1 year. I have learned much.
 
 ## LeetCode
 [Link to profile](https://leetcode.com/Longhuiberkeley/)
+
 See `/LeetCode` for code.
 
 I recently started to give LeetCode a try, maybe learn a new language as well (July 2023)
 
 ## Youtube/ Books (Completed)
 - UMich-Curly Mobile Robotics
-    - [Link](https://www.youtube.com/playlist?list=PLdMorpQLjeXmbFaVku4JdjmQByHHqTd1F)
+    - [Playlist](https://www.youtube.com/playlist?list=PLdMorpQLjeXmbFaVku4JdjmQByHHqTd1F)
 - Cyrill Stachniss, Photogrammetry (1, 2)
     - [Link](https://www.ipb.uni-bonn.de/photo12-2021/)
 - Steve Brunton's playlist and book on Data-Driven Science and Engineering
+    - [Link](https://databookuw.com/)
+    - He keeps updating content for his channel. I finished his content up to 1st Edition of his book, DMD stuff.
 - MIT's Intro to deep learning
+    - [Link](http://introtodeeplearning.com/)
     - [Note, selected](https://colab.research.google.com/drive/1pYNuCT-k7wKGy5MQWRS9INyYJbDLTPmA?usp=sharing) 
-- Fast ai's Practical DL, 2020,
+- Fast ai's Practical Deep Learning, 2020
+    [Link](https://www.youtube.com/playlist?list=PLfYUBJiXbdtRL3FMB3GoWHRI8ieU6FhfM)
 - ...
 
 ## In progress (slowly, not in order) 
@@ -50,9 +55,12 @@ I recently started to give LeetCode a try, maybe learn a new language as well (J
     - [Course website](https://dcai.csail.mit.edu/)
     - [Note](https://drive.google.com/file/d/11OwCje7GIr-6DKxy4h09ymJ2egS75FH2/view?usp=sharing)
     <!-- - [GitHub exercise]() -->
-- Tubingen, Deep Learning
+<!-- - Tubingen, Deep Learning
     - [Course website](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/lectures/deep-learning/)
-    - [Note](https://drive.google.com/file/d/1L3L6-sk9TOl2EVIsdgSOKUaEyUdKccI5/view?usp=sharing)
+    - [Note](https://drive.google.com/file/d/1L3L6-sk9TOl2EVIsdgSOKUaEyUdKccI5/view?usp=sharing) -->
+- UvA, Deep learning
+    - [Course website](https://uvadlc.github.io/)
+    - [Note](https://drive.google.com/file/d/1oahv7HwKdSBGQUqTshY79t-V23RDSAlp/view?usp=sharing)
 - LLM Bootcamp
     - [Course website](https://fullstackdeeplearning.com/llm-bootcamp/spring-2023/)
     - [Note](https://colab.research.google.com/drive/1_r79ubwzTahJ7W7helYRX0w-Gsm4K7sd?usp=sharing)
@@ -60,7 +68,8 @@ I recently started to give LeetCode a try, maybe learn a new language as well (J
     - [Note](https://colab.research.google.com/drive/1O5tWgJcpbY0gDOfj1-HebQel7nOgjQvv?usp=sharing)
 - Matrix Groups for Undergraduates, Kristopher Tapp, book,
     - [Note][stml029]
-- [Harvard Math 205](https://www.youtube.com/playlist?list=PL43IQ71lgJytIqhiJ6v5lNswFKeQ9952K)
+- Harvard Applied Math 205
+    - [Playlist](https://www.youtube.com/playlist?list=PL43IQ71lgJytIqhiJ6v5lNswFKeQ9952K)
 - Tubingen, 
     - [computer vision](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/lectures/computer-vision/), 
     - [prob numerics](https://www.youtube.com/playlist?list=PL05umP7R6ij2lwDdj7IkuHoP9vHlEcH0s)
