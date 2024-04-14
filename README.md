@@ -31,7 +31,14 @@ I signed up for the Coursera Plus in 2020 for 1 year. I have learned much.
 ## LeetCode
 [Link to profile](https://leetcode.com/Longhuiberkeley/)
 
-See `/LeetCode` for code.
+See [`/LeetCode`][leetcode] for code.
+
+[leetcode]: LeetCode/
+
+## Other websites
+- [Qiskit](https://qiskit.org/learn/)
+- [AI Campus](https://ki-campus.org/)
+
 
 I recently started to give LeetCode a try, maybe learn a new language as well (July 2023)
 
@@ -53,7 +60,8 @@ I recently started to give LeetCode a try, maybe learn a new language as well (J
 ## In progress (slowly, not in order) 
 - Introduction to Data-Centric AI
     - [Course website](https://dcai.csail.mit.edu/)
-    - [Note](https://drive.google.com/file/d/11OwCje7GIr-6DKxy4h09ymJ2egS75FH2/view?usp=sharing)
+    - [Lab](https://github.com/Longhuiberkeley/dcai-lab)
+    - [Note, partial](https://drive.google.com/file/d/11OwCje7GIr-6DKxy4h09ymJ2egS75FH2/view?usp=sharing)
     <!-- - [GitHub exercise]() -->
 <!-- - Tubingen, Deep Learning
     - [Course website](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/lectures/deep-learning/)
@@ -76,6 +84,7 @@ I recently started to give LeetCode a try, maybe learn a new language as well (J
     - [prob ML](https://www.youtube.com/playlist?list=PL05umP7R6ij2YE8rRJSb-olDNbntAQ_Bx)
 - [Convex optimization](https://www.youtube.com/playlist?list=PL8WsPW41L6l7rviIGvIkY0-jn-tM3YSNi)
 - [Modern Robotics](https://www.youtube.com/playlist?list=PLggLP4f-rq02vX0OQQ5vrCxbJrzamYDfx), Northwestern
+- [Dive into Deep Learning](https://d2l.ai/index.html)
 - More manifold stuff, DL, ML, graph DL, and geometric algebra
 - random matrix theory, and representation theory seem cool too
 
